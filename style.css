@@ -11452,7 +11452,7 @@
       /* Make the page background atleast 100% the height of the view port */
       /* Make the page itself atleast 70% the height of the view port */
       .border-box-sizing {
-          box-sizing: border-box;
+          box-sizing: content-box;
       }
 
       .corner-all {
@@ -14128,7 +14128,7 @@ Adapted from GitHub theme
           padding-top: 20px;
           margin: 0;
           outline: none;
-          box-sizing: border-box;
+          box-sizing: content-box;
           min-height: 100%;
       }
 
